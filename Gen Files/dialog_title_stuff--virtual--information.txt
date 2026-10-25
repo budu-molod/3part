@@ -1,0 +1,16 @@
+0
+Do you want to take the stuff?
+1
+Do you want to use the stuff?
+2
+Do you want to remove selected stuff and change to the stuff?
+3
+Do you want to hurt him?
+4
+Save changed?
+5
+Do you want to speak him?
+6
+You cannot speak without `dictionary`, use it
+7
+`convoir` hurts you! You losed your health

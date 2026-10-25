@@ -1,0 +1,88 @@
+x y
+83 5
+n
+7
+0
+N: Big Brother, Big Brother, Big Brother
+1
+P: Hello, who are you?
+2
+P: ...
+0
+N: Oh, man? What do you do in my room?
+1
+P: I don`t know, I just put myself
+2
+P: I want to go in freedom
+0
+N: 2 * 2 = 5!
+1
+P: ...
+2
+P: ...!
+0
+N: Ok, therefor just put out yourself
+1
+P: Man, I need help...
+2
+P: Oh...
+0
+N: Freedom, you need blade, to take in down
+1
+P: Do you want to say I must kill?
+2
+P: Thanks.
+0
+N: THOUGHTCRIME
+1
+P: ?
+2
+P: ...!
+0
+N: TWOTHOUGHT
+1
+P: ...?
+2
+P: ...?!
+x y
+154 11
+n
+1
+0
+N: JUST GO OUT!
+1
+P: Relax man.
+2
+P: Go out self
+x y
+182 12
+n
+3
+0
+N: Hello, how are you my friend?
+1
+P: I`m fine, so where are we.
+2
+P: I`m afraid. The rooms is so tasteless.
+0
+N: Good) Ah, it`s Ministry of Love, the amazing place)
+1
+P: Oh, cool)
+2
+P: I don`t think so it`s good...
+0
+N: Oh, I will talk about it the designer)
+1
+P: Good, buy buy
+2
+P: Yes, you have to be talking about it!
+x y
+487 7
+n
+1
+0
+N: I I I I
+1
+P: I?
+2
+P: You?
