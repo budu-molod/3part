@@ -1184,10 +1184,17 @@ int selected_list::get_selected_index()
 {
 	return selected_index;
 }
+int _equal_(std::string s_1, std::string s_2)
+{
+	if (s_1.length() > s_2.length())
+		return 0;
+	else
+		return std::equal(s_1.begin(), s_1.end()-1, s_2.begin());
+}
 int selected_list::gr_ff_out(std::string s_val) 
 {
 	
-	if (s_val == gr_d_arr[selected_index]) 
+	if (_equal_(s_val, gr_d_get()))
 	{
 		style_for_this(joint_selected.joint_char_get() + s_val);
 	}
