@@ -120,6 +120,17 @@ int all_clean(gr_stat& br_, ground& _ground, inventory& _inv_for, gr_din& _ih) {
     return 0;
 }
 
+class _sety_ : public menu
+{
+    using menu::menu;
+    int gr_ff_out(std::string s_val)
+    {
+        s_val.erase(s_val.end() - 5, s_val.end());
+        return 
+            selected_list::gr_ff_out(s_val + "\n");
+    }
+};
+
 //int check_y()
 int main()
 {
@@ -147,7 +158,7 @@ int main()
     gr_stat_file br_({ 0,0 }, static_cast<std::string> (NAME_FOLDER_GEN) + "border.txt");
     gr_stat_file controls({ 2, 2 }, static_cast<std::string> (NAME_FOLDER_GEN) + "control.txt");
 
-    menu _setting_({ 2, 13 }, GR_::get_file_names(NAME_FOLDER_GROUND, POSTFIX_VIRTUAL_INFORMATION, 1), 0, "GROUNDS");
+    _sety_ _setting_({ 2, 13 }, GR_::get_file_names(NAME_FOLDER_GROUND, POSTFIX_VIRTUAL_INFORMATION, 1), 0, "GROUNDS");
 
     ground _ground({ 2,2 }, GR_::pop_(_setting_.gr_d_get()));
     _ground.turn_virt();
